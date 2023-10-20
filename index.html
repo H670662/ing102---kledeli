@@ -1,78 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="nb">
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        /* Dropdown Button */
-        .dropbtn {
-          background-color: #04AA6D;
-          color: white;
-          padding: 16px;
-          font-size: 16px;
-          border: none;
+       #fremside {
+            position: relative;
+            width: 100%;
+            height: 70vh;
+            background: url('mediafiler/barnklærnatur.jpg') center/cover no-repeat; 
         }
-        
-        /* The container <div> - needed to position the dropdown content */
-        .dropdown {
-          position: relative;
-          display: inline-block;
-        }
-         
-        /* Dropdown Content (Hidden by Default) */
-        .dropdown-content {
-          display: none;
-          position: absolute;
-          background-color: #f1f1f1;
-          min-width: 160px;
-          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-          z-index: 1;
-        }
-        
-        /* Links inside the dropdown */
-        .dropdown-content a {
-          color: black;
-          padding: 12px 16px;
-          text-decoration: none;
-          display: block;
-        }
-        
-        /* Change color of dropdown links on hover */
-        .dropdown-content a:hover {background-color: #ddd;}
-        
-        /* Show the dropdown menu on hover */
-        .dropdown:hover .dropdown-content {display: block;}
-        
-        /* Change the background color of the dropdown button when the dropdown content is shown */
-        .dropdown:hover .dropbtn {background-color: #3e8e41;}
     </style>
-</head>
-<body>
-    <div id="Meny">
-        <ul>
-            <li><a href="index.html"><img src="mediafiler/LOGO.svg" style="max-width: 60px; max-height: 60px;"></a></li>
-            <li class="dropdown">
-            <button class="dropbtn">Gutter</button>
-            <div class="dropdown-content">
-                <a href="Gutter_Yttertoy.html">Yttertøy</a>
-                <a href="Gutter_Innertoy.html">Innertøy</a>
-                <a href="Gutter_Undertoy.html">Undertøy</a>
-            </div>
-            </li>
-            <li class="dropdown">
-                <button class="dropbtn">Jenter</button>
-                <div class="dropdown-content">
-                    <a href="Gutter_Yttertoy.html">Yttertøy</a>
-                    <a href="Gutter_Innertoy.html">Innertøy</a>
-                    <a href="Gutter_Undertoy.html">Undertøy</a>
-                </div>
-                </li>   
-            
-            <li><a href="Destinasjoner.html">Destinasjoner</a></li>
-            <li><a href="dummy.html">Bærekraft</a></li>
-        </ul>
+  </head>
+  <body>
+    <nav id="Venstre-Meny">
+      <ul>
+        <li id="logo&indexbtn">
+          <a href="index.html">
+            <img src="mediafiler/LOGO.svg" style="max-width: 60px; max-height: 60px;" alt="Kledeli logo">
+          </a>
+        </li>
+        <li id="fremtidigdropdown">
+          <button>Gutter</button>
+          <div id="underGutter">
+            <a href="Gutter_yttertoy.html"> - Yttertøy</a>
+            <a href="Gutter_Innertoy.html"> - Innertøy</a>
+            <a href="Gutter_Undertoy.html"> - Undertøy</a>
+          </div>
+        </li>
+        <li>
+          <button>Jenter</button>
+          <div id="underJenter">
+            <a href="Gutter_yttertoy.html"> - Yttertøy</a>
+            <a href="Gutter_Innertoy.html"> - Innertøy</a>
+            <a href="Gutter_Undertoy.html"> - Undertøy</a>
+          </div>
+        </li>
+        <li>
+          <a href="Destinasjoner.html">Destinasjoner</a>
+        </li>
+        <li>
+          <a href="register.html">Bærekraft</a>
+        </li>
+      </ul>
+    </nav>
+    <br>
+    <nav id="Høyre-Meny">
+      <ul>
+        <li>
+          <a href="Medlemskap.html"> Medlemsnivåer </a>
+        </li>
+        <li>
+          <a href="register.html"> Logg inn </a>
+        </li>
+        <li>
+          <a href="Medlemskap.html"> Registrer deg</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="fremside" style="text-align:center" >
+            <br><br>
+            <h4>Velkommen til <i>klesdelingstjenesten</i> KLEDELI.</h4>
+            <a href="Medlemskap.html">Medlemsskap</a>
+            <a href="register.html">Logg Inn</a>
     </div>
     
 </body>
