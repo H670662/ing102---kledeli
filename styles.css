@@ -5,12 +5,12 @@
     --color-good: #20c040;
 
     /* DARK */
-    --color-theme-bg: #36c;
-    --color-theme-text: #f4d83d;
-    --color-bg: #aeb8c2ed;
+    --color-theme-bg: rgb(255, 255, 255);
+    --color-theme-text: #000000;
+    --color-bg: #D9D9D9;
     --color-border: #14a;
     --color-disabled: #678;
-    --color-text: #171515;
+    --color-text: #000000;
     --color-dialog-bg: #4a7aea;
 
   }
