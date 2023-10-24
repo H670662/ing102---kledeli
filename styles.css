@@ -69,8 +69,10 @@
   }
 
   button  {
-    width: 60px; height: 60px;
+    width: auto; 
+    height: 60px;
     padding: 0.5em;
+    cursor:  pointer; 
   }
 
   .warn {
@@ -99,24 +101,24 @@ table.produkt td{
 }
 
 .button-link {
-  padding: 8px 16px; 
+  padding: 10px 16px;
   color: black; 
   background-color: #ffffff; 
-  border: 1px solid black; 
+  border: 2px solid black; 
   border-radius: 4px; 
   cursor:  pointer; 
   text-align: center; 
   text-decoration: none;
 }
 .button-registrer {
-  display: block; 
   padding: 8px 16px; 
-  color: black; 
-  background-color: #000000; 
-  border: 1px solid rgb(255, 255, 255); 
+  color: black !important; 
+  background-color: var(--color-bg); 
+  border: 2px solid black; 
   border-radius: 4px; 
   cursor:  pointer; 
   text-align: center; 
+  text-decoration: none;
 }
 
 .nav-container {
@@ -141,4 +143,16 @@ table.produkt td{
   min-height: 200px;
   max-width: 200px;
   max-height: 200px;
+}
+.footer {
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: azure;
+  color: black;
+  text-align: center;
+}
+.inline {
+  display: inline-block;
 }

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" /> 
+    <script src="script.js"></script>
     <!--style>
         table, th, td {
         border: 3px solid gray;
@@ -28,22 +29,22 @@
 </head>
 <body>
   <div class="nav-container">
-    <nav class="Venstre-Meny">
-    <ul class="flex">
-      <li id="logo&indexbtn">
+    <nav id="venstre">
+      <ul class="flex">
+        <li id="logo&indexbtn">
         <a href="index.html">
           <img src="mediafiler/LOGO.svg" class="logo" alt="Kledeli logo">
         </a>
-      </li>
+        </li>
 
-      <li id="dropdown">
+        <li id="dropdown">
         <button onclick="showhide(event)">Gutter</button>
         <div class="hidden meny">
           <a href="Gutter_yttertoy.html"> - Yttertøy</a>
           <a href="Gutter_Innertoy.html"> - Innertøy</a>
           <a href="Gutter_Undertoy.html"> - Undertøy</a>
         </div>
-      </li>
+        </li>
 
         <li id="dropdown">
         <button onclick="showhide(event)">Jenter</button>
@@ -52,26 +53,29 @@
           <a href="Gutter_Innertoy.html"> - Innertøy</a>
           <a href="Gutter_Undertoy.html"> - Undertøy</a>
         </div>
-      </li>
-      <li class="button-link">
-        <a href="Destinasjoner.html">Destinasjoner</a>
-      </li>
-      <li class="button-link">
-        <a href="Barekraft.html">Bærekraft</a>
-      </li>
-    </ul>
+        </li>
+
+        <li>
+        <a href="Destinasjoner.html" class="button-link">Destinasjoner</a>
+        </li>
+
+        <li>
+        <a href="Barekraft.html" class="button-link">Bærekraft</a>
+        </li>
+
+      </ul>
     </nav>
 
-    <nav class="Hoyre-Meny">
-    <ul>
+    <nav id="hoyre">
+    <ul class="flex">
       <li>
-        <a href="Medlemskap.html"> Medlemsnivåer </a>
+        <a href="Medlemskap.html" class="button-link"> Medlemsnivåer </a>
       </li>
       <li>
-        <a href="register.html"> Logg inn </a>
+        <a href="register.html" class="button-link"> Logg inn </a>
       </li>
       <li>
-        <a href="Medlemskap.html"> Registrer deg</a>
+        <a href="Medlemskap.html" class="button-registrer">Registrer deg</a>
       </li>
     </ul>
     </nav>
@@ -212,7 +216,10 @@
           </li>
         </ul>
     </div>
-
+    <div class = "footer">
+      <p class = "inline">dette er en tekst</p>
+      <p class = "inline">dette er en tekst</p>
+    </div>
     
 </body>
 </html>
