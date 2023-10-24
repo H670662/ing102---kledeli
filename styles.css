@@ -65,7 +65,7 @@
   }
 
   .logo {
-    max-width: 60px; max-height: 60px;
+    max-width: 200px; max-height: 20px;
   }
 
   button  {
@@ -100,20 +100,21 @@ table.produkt td{
   padding:1em;
 }
 
-.button-link {
-  padding: 10px 16px;
-  color: black; 
-  background-color: #ffffff; 
+
+.button-registrer {
+  padding: 8px 16px; 
+  color: black !important; 
+  background-color: var(--color-bg); 
   border: 2px solid black; 
   border-radius: 4px; 
   cursor:  pointer; 
   text-align: center; 
   text-decoration: none;
 }
-.button-registrer {
-  padding: 8px 16px; 
-  color: black !important; 
-  background-color: var(--color-bg); 
+.button-link {
+  padding: 10px 16px;
+  color: black; 
+  background-color: #ffffff; 
   border: 2px solid black; 
   border-radius: 4px; 
   cursor:  pointer; 
