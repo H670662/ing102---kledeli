@@ -16,53 +16,53 @@
     </style>
   </head>
   <body>
-    <nav id="Venstre-Meny">
-      <ul class="flex">
-        <li id="logo&indexbtn">
-          <a href="index.html">
-            <img src="mediafiler/LOGO.svg" class="logo" alt="Kledeli logo">
-          </a>
-        </li>
+    <div class="nav-container">
+      <nav id="venstre">
+          <ul class="flex">
+              <li id="logo&indexbtn">
+                  <a href="index.html">
+                      <img src="mediafiler/Logosvg.svg" class="logo" alt="Kledeli logo">
+                  </a>
+              </li>
+              <li id="dropdown">
+                  <a class="button-link" onclick="showhide(event)">Gutter</a>
+                  <div class="hidden meny">
+                      <a href="Gutter_yttertoy.html">- Yttertøy</a>
+                      <a href="Gutter_Innertoy.html">- Innertøy</a>
+                      <a href="Gutter_Undertoy.html">- Undertøy</a>
+                  </div>
+              </li>
+              <li id="dropdown">
+                  <a class="button-link" onclick="showhide(event)">Jenter</a>
+                  <div class="hidden meny">
+                      <a href="Gutter_yttertoy.html">- Yttertøy</a>
+                      <a href="Gutter_Innertoy.html">- Innertøy</a>
+                      <a href="Gutter_Undertoy.html">- Undertøy</a>
+                  </div>
+              </li>
+              <li>
+                  <a href="Destinasjoner.html" class="button-link">Destinasjoner</a>
+              </li>
+              <li>
+                  <a href="Barekraft.html" class="button-link">Bærekraft</a>
+              </li>
+          </ul>
+      </nav>
 
-        <li id="dropdown">
-          <button onclick="showhide(event)">Gutter</button>
-          <div class="hidden meny">
-            <a href="Gutter_yttertoy.html"> - Yttertøy</a>
-            <a href="Gutter_Innertoy.html"> - Innertøy</a>
-            <a href="Gutter_Undertoy.html"> - Undertøy</a>
-          </div>
-        </li>
-
-          <li id="dropdown">
-          <button onclick="showhide(event)">Jenter</button>
-          <div class="hidden meny">
-            <a href="Gutter_yttertoy.html"> - Yttertøy</a>
-            <a href="Gutter_Innertoy.html"> - Innertøy</a>
-            <a href="Gutter_Undertoy.html"> - Undertøy</a>
-          </div>
-        </li>
-        <li class="pull-right">
-          <a href="Destinasjoner.html">Destinasjoner</a>
-        </li>
-        <li>
-          <a href="Barekraft.html">Bærekraft</a>
-        </li>
-      </ul>
-    </nav>
-    <br>
-    <nav id="Høyre-Meny">
-      <ul>
-        <li>
-          <a href="Medlemskap.html"> Medlemsnivåer </a>
-        </li>
-        <li>
-          <a href="register.html"> Logg inn </a>
-        </li>
-        <li>
-          <a href="Medlemskap.html"> Registrer deg</a>
-        </li>
-      </ul>
-    </nav>
+      <nav id="hoyre">
+          <ul class="flex">
+              <li>
+                  <a href="Medlemskap.html" class="button-link">Medlemsnivåer</a>
+              </li>
+              <li>
+                  <a href="about.html" class="button-link">Om oss</a>
+              </li>
+              <li>
+                  <a href="register.html" class="button-registrer">Registrer / Logg inn</a>
+              </li>
+          </ul>
+      </nav>
+    </div>
 
 
     <div id="tabell1">
@@ -152,6 +152,10 @@
           </td>
         </tr>
       </table>
+    </div>
+    
+    <div class = "footer">
+      <p class = "inline">© 2023 KLEDELI | <a href=Deadpage.html>Brukervilkår</p> | <a href=Deadpage.html>Personvernerklæring og informasjonskapsler</p>
     </div>
   </body>
 </html>
