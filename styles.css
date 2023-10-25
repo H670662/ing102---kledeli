@@ -176,3 +176,7 @@ table.produkt td{
   justify-content: center;
   gap: 20px; 
 }
+
+.fremhevet{
+  color: #174d17;
+}
