@@ -152,7 +152,7 @@ a:hover {
   max-height: 100%;
 }
 .footer {
-  position: sticky;
+  position: fixed;
   left: 0;
   bottom: 0;
   margin-top: 16px;
@@ -187,6 +187,8 @@ a:hover {
   text-decoration: underline;
 }
 
+/* about */
+
 .about-container{
   display: flex;
   justify-content: center;
@@ -197,23 +199,13 @@ a:hover {
   justify-content: center;
   align-items: center;
   display: flex;
-  background-color: rgba(240, 255, 255, 0.288);
+  background-color: #f0ffff49;
   text-align: center;
   padding: 20px;
   gap: 20px;
 }
 
-.forms {
-  margin: 0 auto;
-  width: 70%;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  background-color: rgba(240, 255, 255, 0.288);
-  text-align: center;
-  padding: 20px;
-  gap: 20px;
-}
+/* medlemskap */
 
 .medlemssnivaa{
   display: flex;
@@ -245,39 +237,53 @@ a:hover {
   text-decoration: none;
 }
 
-form{
-  margin: 0;
-  margin-bottom: 15px;
-}
+/* register */
 
-.bruker-skjema{
+.login-register{
   display: flex;
   justify-content: center;
-  padding: 30px;
-  overflow: auto;
+  padding: 16px;
 }
 
-.bruker-skjema-button{
-  box-sizing: border-box;
+form{
+  max-width: 40%;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 4px;
+  padding-bottom: 15px;
+  background-color: #f0ffff49;
+  margin-left: 20px;
+  margin-right: 20px;
+  
+}
+
+input{
   width: 100%;
-  color: black; 
-  background-color: var(--color-bg); 
-  border: 1px solid black; 
-  border-radius: 4px; 
-  cursor:  pointer; 
-  text-align: center; 
-  text-decoration: none;
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  background: white;
+  padding: 16px 0px;
+  margin: 8px 0;
 }
 
-.login{
-  background-color: azure;
-  padding: 50px;
-  margin-left: 5%;
-  overflow: auto;
+input:focus{
+  background-color: white;
+  outline: none;
 }
-.register{
-  background-color: azure;
-  padding: 50px;
-  margin-right: 5%;
-  overflow: auto;
+
+.registerbtn {
+  background-color: #058556;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+.registerbtn:hover {
+  background-color: #04AA6D;
 }

@@ -56,27 +56,50 @@
                     <a href="about.html" class="button-link">Om oss</a>
                 </li>
                 <li>
-                    <a href="register.html" class="button-registrer">Registrer</a>
+                    <a href="login.html" class="button-registrer">Registrer / Logg inn</a>
                 </li>
             </ul>
         </nav>
     </div>
 
-    <div id="loginside" class="loginside" >
-        <h1 class="login">Logg inn</h1>
+    <div class="login-register">
+        <form>
+            <div id="login-container">
+                <h1>Velkommen tilbake</h1>
+                <p>Vennligst fyll in brukernavn og passord</p>
+            
+                <label for="log-epost"><b>Epost adresse</b></label>
+                <input type="text" placeholder="  ola@nordmann.no" name="email" id="log-epost" required>
+            
+                <label for="log-psw"><b>Passord</b></label>
+                <input type="password" placeholder="  Passord" name="psw" id="log-psw" required>
 
-        <form class="login">
-            <label for="brukernavn">Brukernavn:</label>
-            <input type="text" id="brukernavn" name="brukernavn"><br>
+                <button type="submit" class="  registerbtn">Logg inn</button>
+            </div>
 
         </form>
-        <form class="login">
-            <label for="passord">Passord:</label>
-            <input type="text" id="passord" name="passord"><br>
 
+        <form>
+            <div id=reg-container>
+                <h1>Ny bruker</h1>
+                <p>Vennligst fyll inn brukernavn og passord </p>
+                
+            
+                <label for="epost"><b>E-post adresse</b></label>
+                <input type="text" placeholder="  ola@nordmann.no" name="email" id="epost" required>
+            
+                <label for="psw"><b>Passord</b></label>
+                <input type="password" placeholder="  Passord" name="psw" id="psw" required>
+            
+                <label for="psw-repeat"><b>Gjenta passord</b></label>
+                <input type="password" placeholder="  Passord" name="psw-repeat" id="psw-repeat" required>
+            
+                <button type="submit" class="  registerbtn">registrer</button>
+            </div>
         </form>
 
     </div>
+
 
     <div class="footer">
         <p class="inline">© 2023 KLEDELI | 
