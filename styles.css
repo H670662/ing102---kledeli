@@ -1,10 +1,4 @@
   :root {
-    --color-warn: orange;
-    --color-bad: red;
-    --color-c2a: #6092ef;
-    --color-good: #20c040;
-
-    /* DARK */
     --color-theme-bg: rgb(255, 255, 255);
     --color-theme-text: #000000;
     --color-bg: #D9D9D9;
@@ -83,15 +77,22 @@ table {
   table-layout: fixed;
 }
 
+.destinasjoner-h2{
+  text-align: center;
+  margin-top: 4%;
+  font-size:xx-large
+}
+
 th, td{
   width: 25%;
   border: 2px solid black;
   border-collapse: collapse;
+  background-color: white;
 
 }
 
-tr{
-
+td img{
+  width: 100%;
 }
 
 a:hover {
