@@ -16,6 +16,13 @@
       color: var(--color-text);
   }
 
+  h1{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: center;
+
+  }
+
   body {
       font-family: Arial, Helvetica, sans-serif;
   }
@@ -33,7 +40,7 @@
     margin-left: auto;
   }
 
-  li {
+  .nav-container li {
     list-style-type: none;
     vertical-align: middle;
     margin-right: 3rem;
@@ -129,6 +136,8 @@ a:hover {
   font-size: medium;
   padding-top: 1%;
   padding-bottom: 1%;
+  overflow: auto;
+  white-space: nowrap;
 }
 
 .barekraft {
@@ -174,16 +183,13 @@ a:hover {
 }
 
 .fremhevet{
-  color: #174d17;
+  color: #005300;
+  text-decoration: underline;
 }
 
 .about-container{
-  margin: 15px auto;
   display: flex;
-  width: 80%;
-  text-align: center;
-  align-items: center;
-  padding: 30px;
+  justify-content: center;
 }
 .about-infoboks{
   margin: 0 auto;
@@ -221,4 +227,34 @@ a:hover {
   width: 100%;
   height: 100vh;
   background: url('mediafiler/marita-kavelashvili-ugnrXk1129g-unsplash.jpg') center/cover no-repeat; 
+}
+
+.medlemssnivaa{
+  display: flex;
+  justify-content: center;
+}
+
+.medlemssnivaa ul{
+  background-color: rgba(240, 255, 255, 0.288);
+  list-style: none;
+  padding: 3%;
+  margin-left: 10px;
+  flex: 1;
+}
+
+.medlemssnivaa li{
+  flex: 1;
+  margin: 0 10px;
+}
+
+.medlemssnivaa a{
+  margin-top: 200px;
+  padding: 12px 6px;
+  color: black; 
+  background-color: azure; 
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor:  pointer; 
+  text-align: center; 
+  text-decoration: none;
 }
