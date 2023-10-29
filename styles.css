@@ -213,6 +213,11 @@ a:hover {
 .medlemssnivaa{
   display: flex;
   justify-content: center;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  overflow: auto;
 }
 
 .medlemssnivaa ul{
@@ -225,11 +230,10 @@ a:hover {
 
 .medlemssnivaa li{
   flex: 1;
-  margin: 0 10px;
+  margin: 0 8px;
 }
 
 .medlemssnivaa a{
-  margin-top: 200px;
   padding: 12px 6px;
   color: black; 
   background-color: azure; 
